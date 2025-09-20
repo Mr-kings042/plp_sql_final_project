@@ -143,6 +143,10 @@ Once the application is running, access the interactive API documentation:
 - `POST /api/v1/loans/` - Create a new loan
 - `POST /api/v1/loans/{loan_id}/return` - Return a borrowed book
 
+### Publishers
+- `GET /api/v1/publishers/` - Get all publisher
+- `GET /api/v1/publishers/{publisher_id}` - Get a specific Publisher
+
 ## Usage Examples
 
 ### Create a Book
