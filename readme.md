@@ -54,8 +54,8 @@ library-management-system/
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd library-management-system
+git clone https://github.com/Mr-kings042/plp_sql_final_project.git
+cd plp_sql_final_project
 ```
 
 ### 2. Set Up Virtual Environment
@@ -109,7 +109,7 @@ Replace `username` and `password` with your MySQL credentials.
 
 ```bash
 # From the app/ directory
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 ```
 
 The API will be available at `http://localhost:8000`
