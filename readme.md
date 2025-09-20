@@ -197,27 +197,6 @@ Key relationships:
 - Loans → Books (Many-to-One)
 - Loans → Members (Many-to-One)
 
-## Development
-
-### Running Tests
-
-```bash
-# Install test dependencies
-pip install pytest pytest-asyncio httpx
-
-# Run tests
-pytest
-```
-
-### Code Style
-
-The project follows PEP 8 style guidelines. Use tools like `black` and `flake8` for code formatting:
-
-```bash
-pip install black flake8
-black app/
-flake8 app/
-```
 
 ## Deployment
 
